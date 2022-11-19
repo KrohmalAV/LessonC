@@ -1,0 +1,13 @@
+﻿int a = 3;
+int b = 2;
+int c = 4;
+int d = 8;
+int e = 1;
+int t = a;
+if(b > t) t = b;
+if(c > t) t = c;
+if(d > t) t = d;  
+if(e > t) t = e; 
+Console.Write("Самая тяжелая гиря весит "); 
+Console.Write(t);  
+Console.WriteLine(" кг");  
